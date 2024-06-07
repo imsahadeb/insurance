@@ -30,6 +30,9 @@
   
     padding: 30px;
 }
+.map-iframe{
+    padding: 30px 0;
+}
 .map-location
 {
 	margin: 1rem 0;
