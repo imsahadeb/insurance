@@ -26,6 +26,9 @@
 
 
 /*------------------------ Map styling ----------------------------*/
+.map{
+    padding: 30px;
+}
 .map-location
 {
 	margin: 1rem 0;
@@ -38,70 +41,15 @@
 	font-size: 2.6rem;
 	color: var(--yellow-color);
 }
+.map-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px;
+}
 /*------------------------ Map styling ----------------------------*/
 
 
 
-/*------------------------------ Contact Info ---------------------------*/
-.contact-info
-{
-	background: linear-gradient(rgba(10, 17, 79, 0.9), rgba(10, 17, 79, 0.9)), url("../img/hero-bg.jpg");
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.contact-info .container
-{
-	text-align: center;
-	padding: 5rem 0;
-}
-
-.contact-info .container .row
-{
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-}
-
-.contact-info .container .row .col ion-icon
-{
-	color: var(--yellow-color);
-	font-size: 3.6rem;
-}
-
-.info-name
-{
-	font-size: 1.7rem;
-	font-weight: 700;
-}
-
-.info-detail
-{
-	font-size: 1.1rem;
-	font-weight: 400;
-}
-/*------------------------------ Contact Info ---------------------------*/
-
-
-
-
-/*---------------------------------- Branches ---------------------------*/
-.branch-img
-{
-	margin: 1rem 0;
-}
-
-.branch-card
-{
-	margin: 2rem 0;
-	padding: 1.6rem;
-	display: flex;
-	flex-direction: column;
-	grid-gap: 0.8rem;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-}
-/*---------------------------------- Branches ---------------------------*/
 
 
 
@@ -138,39 +86,5 @@
 	{
 		justify-content: center;
 	}
-
-
-	/*-------------- Contact info ---------------*/
-	/*.contact-info .container
-	{
-		padding: 8rem 0;
-	}*/
-
-	.contact-info .container .row
-	{
-		flex-direction: row;
-	}
-
-	.contact-info .container .row .col ion-icon 
-	{
-		color: var(--yellow-color);
-		font-size: 5rem;
-	}
-
-	.info-name 
-	{
-		font-size: 2.6rem;
-	}
-
-	.info-detail 
-	{
-		font-size: 1.6rem;
-	}
-
-
-	/*-------------------------- Branches styling -----------------------*/
-	.branch-card 
-	{
-		padding: 4rem;
-	}
 }
+
