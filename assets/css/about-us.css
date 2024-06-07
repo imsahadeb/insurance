@@ -31,6 +31,19 @@
 
 
 
+/*------------------ Future protection styling ----------------*/
+.future-protection-imgs
+{
+	margin: 2rem 0;
+}
+
+.future-protection-img
+{
+	border-radius: 6px;
+}
+/*------------------ Future protection styling ----------------*/
+
+
 
 /*-----------------------------------------------------------------------------------------*/
 /*-------------------------------- Desktop screen styling --------------------------------*/
@@ -42,6 +55,35 @@
 	{
 		height: 50vh;
 	}
+
+
+
+	/*-------------- Future styling --------------*/
+    .future-heading
+    {
+      
+        padding: 30px;
+    }
+	.future .container
+	{
+		text-align: center;
+	}
+
+	.future .para-line
+	{
+		max-width: 1050px;
+		margin: 0 auto;
+        margin-top: 30px;
+	}
+
+	.future-protection-imgs
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+	}
+
 
 
 }
