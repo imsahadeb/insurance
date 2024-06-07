@@ -1,3 +1,7 @@
+.about-us{
+    margin-top: 30px;
+}
+
 /*------------------ Breadcrumb styling --------------------*/
 .breadcrumbs
 {
@@ -6,6 +10,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 
 .breadcrumb-container
 {
@@ -37,10 +42,6 @@
 	{
 		height: 50vh;
 	}
-
-    .about-us{
-        margin-top: 30px;
-    }
 
 
 }
