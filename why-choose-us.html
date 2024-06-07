@@ -48,6 +48,7 @@
     <!-- template styles -->
     <link rel="stylesheet" id="langLtr" href="assets/css/tejas.css" />
     <link rel="stylesheet" href="assets/css/tejas-responsive.css" />
+    <link rel="stylesheet" href="assets/css/why-choose-us.css" />
 
 </head>
 
@@ -272,6 +273,115 @@
             </div>
         </section>
         <!--Why Choose One End-->
+
+<!-------------------- FAQ section -------------------------->
+<section class="faqs">
+    <div class="container">
+        
+        <h2 class="faq-heading white">
+            Most Asked Questions
+        </h2>
+
+        <div class="let-them-ask">
+            <div class="row faq-row">
+                <div class="col">
+                    <div class="faq">
+                        <div class="question">
+                            <h3>1. How old do I have to be to buy an Insurance?</h3>
+                            
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                You need to be at least 18 years old to purchase an insurance policy.
+                            </p>
+                        </div>
+                    </div>
+                      
+                    <div class="faq">
+                        <div class="question">
+                            <h3>2. What is KidCare Insurance?</h3>
+                            
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                KidCare Insurance provides comprehensive health coverage for children, ensuring their medical needs are met.
+                            </p>
+                        </div>
+                    </div>
+                      
+                    <div class="faq">
+                        <div class="question">
+                            <h3>3. Do you accept credit cards?</h3>
+                            
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                Yes, we accept all major credit cards for premium payments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="faq">
+                        <div class="question">
+                            <h3>4. How do Insurance plans work?</h3>
+                            
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                Insurance plans provide financial protection against losses by pooling risks and paying claims.
+                            </p>
+                        </div>
+                    </div>
+                      
+                    <div class="faq">
+                        <div class="question">
+                            <h3>5. Who is eligible for the Future Insurance plan?</h3>
+                            
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                The Future Insurance plan is available to individuals aged 18 to 60, subject to underwriting.
+                            </p>
+                        </div>
+                    </div>
+                      
+                    <div class="faq">
+                        <div class="question">
+                            <h3>6. Why should I have Insurance?</h3>
+                            
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                Insurance provides financial protection, peace of mind, and helps manage risks in uncertain times.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------------- FAQ section -------------------------->
+
 
       
 
@@ -499,6 +609,17 @@
 
     <!-- template js -->
     <script src="assets/js/tejas.js"></script>
+    <script>
+		// FAQ script
+		const faqs = document.querySelectorAll(".faq");
+
+		faqs.forEach(faq => {
+		  faq.addEventListener("click", () => {
+		    faq.classList.toggle("active");
+		  })
+		})
+	</script>
+
 </body>
 
 </html>

@@ -1,0 +1,94 @@
+
+
+
+
+/*------------------ FAQ styling -------------------------------------*/
+.faqs
+{
+	background: linear-gradient(rgba(10, 17, 79, 0.9), rgba(10, 17, 79, 0.9)), url("../images/backgrounds/faq-bg.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.faq-heading{
+    font-size: 3rem;
+}
+.white
+{
+    color: white;
+  
+}
+
+
+.faq
+{
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.faq .question
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1rem;
+  
+}
+
+.faq .question h3
+{
+  font-size: 1.1rem;
+  font-weight: 600;
+ 
+}
+
+.faq .answer
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.faq .answer p
+{
+  padding-top: 1rem;
+  line-height: 1.6;
+}
+
+.faq.active .answer
+{
+  max-height: 300px;
+}
+/*------------------ FAQ styling -------------------------------------*/
+/*-------------------- Desktop screen styling -------------------*/
+/*---------------------------------------------------------------*/
+@media screen and (min-width: 789px)
+{
+	/*----------- Breadcrumb styling ----------*/
+	.breadcrumb-container 
+	{
+		height: 50vh;
+	}
+
+	/*----------- Service styling ------------*/
+	.service-card
+	{
+		margin: 0;
+	}
+
+	/*----------- FAQ styling --------------*/
+	.faq-row
+	{
+		align-items: flex-start;
+	}
+
+	/*------------ Additional service styling ------------*/
+	.additional-row
+	{
+		align-items: flex-start;
+	}
+}
