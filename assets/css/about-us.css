@@ -1,0 +1,24 @@
+.breadcrumbs
+{
+	background: linear-gradient(rgba(150, 60, 221, 0.1), rgba(17, 17, 69, 0.8)), url('../images/backgrounds/about-bread.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-bottom: 30px;
+
+}
+
+.breadcrumb-container
+{
+	height: 48vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5rem;
+}
+
+.breadcrumb-container .hero-heading
+{
+	font-size: 3rem;
+    color: beige;
+}
